@@ -7,6 +7,7 @@
 //
 
 #import "AMainViewController.h"
+#import <HandyFrame/UIView+LayoutMethods.h>
 #import <B_Category/CTMediator+B.h>
 
 @interface AMainViewController ()
@@ -19,14 +20,15 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+	self.view.backgroundColor = [UIColor whiteColor];
 	[self.view addSubview:self.pushBButton];
 }
 
 - (void)viewWillLayoutSubviews {
 	[super viewWillLayoutSubviews];
 	
-	self.pushBButton.frame = CGRectMake(200, 200, 100, 100);
 	[self.pushBButton sizeToFit];
+	[self.pushBButton centerEqualToView:self.view];
 }
 
 - (void)didTappedPushBViewControllerButton:(UIButton *)sender {
