@@ -1,0 +1,1143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		214E3026659ECEED9396D0A964D9EA63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2B0B71FC3F8B22F174EA0394EDFDD8B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2B8B176DB77E0E8024ED545A1467390D /* UIView+LayoutMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = FA51251CAB749EA861CF8846873DEEE6 /* UIView+LayoutMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39D1F53C7088E0AC6E7CB2C9012F4DE1 /* CTMediator+B.h in Headers */ = {isa = PBXBuildFile; fileRef = 389136AA4A758389D48ED102E65B9BD7 /* CTMediator+B.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBD72F4F64A7DE45A88ECCC7B12FD6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		4355C731060DC668A71EBCBCA3435BDC /* HandyFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB0570247496F836FE220E418EF44C /* HandyFrame-dummy.m */; };
+		55AED0A7DBCBB010D813626A8236B3FE /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B4F0A1D89DF2221A20A4DA18191225 /* CTMediator.m */; };
+		5BF737471825C95A732D320C04190B6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5CD9DA56144180C5943C9D9BE8D1203E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		68050F39367B9609F096B35FF704AC78 /* A_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA540A3D3A9820462BAE828ACD74D9CD /* A_Category-dummy.m */; };
+		6B1A6DFF402ED5B395F39AAC267937ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6C2B3055C93BC3023D20A2163EE55B16 /* CTMediator+A.h in Headers */ = {isa = PBXBuildFile; fileRef = A478903666F2435815D6C1297BD93C90 /* CTMediator+A.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D58687ACECBEB7D612A2A79F0A3A6C1 /* Pods-ModulizationProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A01EF91DD3147B05295A21B72D539A /* Pods-ModulizationProject-dummy.m */; };
+		78C0918970700F0CBEA1455778849FDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		8689F3AEE7015340A023A3414D51EAFD /* B_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A094BB209B3637C2DE09FD5C596CC46 /* B_Category-dummy.m */; };
+		9402B091E3D1D6C6D5974D4DB66CB9CD /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A14A9E789980F95D7FD5405ECCD197A /* CTMediator+B.m */; };
+		9992939FCDE69769D9EF6FE80E366536 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B94DC770F33C85167CDE4AAAE4BD72F /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E918F37C1E06AE679EDE2B253CDF98A /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC3A1C3D2B226858813B3CA62804AEF /* Target_A.m */; };
+		B7A79169A394B66DE4969000F2B31284 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = 16279190CEEC1DDF6F3932612F7B27C9 /* CTMediator+A.m */; };
+		BC035E793A4811A3A13D5434C411D213 /* Target_A.h in Headers */ = {isa = PBXBuildFile; fileRef = 181E914D47D50B74A39AEC0147DDFE0E /* Target_A.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDEC440FEE9CC04E639BCC6A1C9A2D06 /* AMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10931D0DCE039220F7D630DC68891EF /* AMainViewController.m */; };
+		C1E69CD14FEC0C5F8732E296780E57AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		CE2B398B730AC6929B170398C142D4F4 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF96B3A72D33B73E0E417AD3BB341DA /* CTMediator-dummy.m */; };
+		D274E160F43659FDA92C800617926694 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFEFFF6CF29C9043538648A7A4A0131 /* UIView+LayoutMethods.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E27F96C48580C9B25F435F3D8E60CD38 /* A-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BD2D36EFD7D3FC8E05992874910E3 /* A-dummy.m */; };
+		EDE1742D4BDEAC2EF1A2D6E2F5AC8FB1 /* AMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1056DBF642E2B349BBF868641325732 /* AMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0776F629F0CA31BDBA587F21961D2FEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B441CC25A45575625B4E85F7509FCC;
+			remoteInfo = CTMediator;
+		};
+		24BAF45512ABDBF33EA9A612C146EAD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B441CC25A45575625B4E85F7509FCC;
+			remoteInfo = CTMediator;
+		};
+		2A0D93BBE025997E8CDE2C76CAA371DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B441CC25A45575625B4E85F7509FCC;
+			remoteInfo = CTMediator;
+		};
+		596D91B42311C35259A0428416B80AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE53AD0B7382177F4D30E0299A670EC;
+			remoteInfo = HandyFrame;
+		};
+		5FBDDD2011D5492665B1A23160AE82FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9449900C04677E53B66F12ECB0512E;
+			remoteInfo = B_Category;
+		};
+		69DF4D29CB98D1BFBBBDB394B24E76B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B441CC25A45575625B4E85F7509FCC;
+			remoteInfo = CTMediator;
+		};
+		902F542BD4194B1C76431912C8734E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D45F4152699BCA3C5388B88F572F19B;
+			remoteInfo = A;
+		};
+		93A9FCCB7D86112AD6E9665B7FEE0095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9449900C04677E53B66F12ECB0512E;
+			remoteInfo = B_Category;
+		};
+		B0ADD1920D70A4ABABA2E1B29E2B996B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CE37C8540E87ABF913768831B14E818;
+			remoteInfo = A_Category;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06789C788FB5E66C3E9ABC25D0087CDD /* libA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libA.a; path = libA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D28FA9AFC7435F60BB655865C8559DD /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediator.a; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F26C537B8B6267DD86F00A59C691F30 /* HandyFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HandyFrame.xcconfig; sourceTree = "<group>"; };
+		14ED9FB5C37DFB09241FEEE9E0B3982C /* A_Category-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "A_Category-prefix.pch"; sourceTree = "<group>"; };
+		16279190CEEC1DDF6F3932612F7B27C9 /* CTMediator+A.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+A.m"; path = "A_Category/A_Category/CTMediator+A.m"; sourceTree = "<group>"; };
+		181E914D47D50B74A39AEC0147DDFE0E /* Target_A.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_A.h; path = A/A/Target_A.h; sourceTree = "<group>"; };
+		1B94DC770F33C85167CDE4AAAE4BD72F /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		2E0BD2D36EFD7D3FC8E05992874910E3 /* A-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "A-dummy.m"; sourceTree = "<group>"; };
+		373BB17C55A2707AACAC973C10F97C8B /* Pods-ModulizationProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModulizationProject.debug.xcconfig"; sourceTree = "<group>"; };
+		389136AA4A758389D48ED102E65B9BD7 /* CTMediator+B.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+B.h"; path = "B_Category/B_Category/CTMediator+B.h"; sourceTree = "<group>"; };
+		3AB8CDE6BC69DC2DFA6BB38827ED1B1F /* A_Category.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = A_Category.xcconfig; sourceTree = "<group>"; };
+		431ECAFF4B69371F730F530AE8844D57 /* Pods-ModulizationProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModulizationProject-frameworks.sh"; sourceTree = "<group>"; };
+		4B1D8C4D1BE6857DC2819872598092B5 /* libA_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libA_Category.a; path = libA_Category.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF85759A46C0F5B723CD1EE40219E79 /* libB_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libB_Category.a; path = libB_Category.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		595AE458A8FA654AC1E0DD4801CF60FF /* A.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = A.xcconfig; sourceTree = "<group>"; };
+		5A094BB209B3637C2DE09FD5C596CC46 /* B_Category-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "B_Category-dummy.m"; sourceTree = "<group>"; };
+		5A14A9E789980F95D7FD5405ECCD197A /* CTMediator+B.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+B.m"; path = "B_Category/B_Category/CTMediator+B.m"; sourceTree = "<group>"; };
+		6164EF6C19674C098FA5757972EBF965 /* HandyFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyFrame-prefix.pch"; sourceTree = "<group>"; };
+		721DE06ED361FC66765204CF9C2CB1CB /* B_Category.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = B_Category.xcconfig; sourceTree = "<group>"; };
+		76BB0570247496F836FE220E418EF44C /* HandyFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HandyFrame-dummy.m"; sourceTree = "<group>"; };
+		7B90012B3423C3C928E9A8A42944429D /* A-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "A-prefix.pch"; sourceTree = "<group>"; };
+		855CB51EEE86A97A16E4E5351B3A6BFA /* Pods-ModulizationProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModulizationProject-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97F5E2A6284EE8C887897C4EE33596DB /* libPods-ModulizationProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ModulizationProject.a"; path = "libPods-ModulizationProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A478903666F2435815D6C1297BD93C90 /* CTMediator+A.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+A.h"; path = "A_Category/A_Category/CTMediator+A.h"; sourceTree = "<group>"; };
+		AC9D2DA7F10DB84951F94C8EC1F46BEA /* Pods-ModulizationProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModulizationProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAFEFFF6CF29C9043538648A7A4A0131 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		C10931D0DCE039220F7D630DC68891EF /* AMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMainViewController.m; path = A/A/AMainViewController.m; sourceTree = "<group>"; };
+		C4B4F0A1D89DF2221A20A4DA18191225 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		CCC3A1C3D2B226858813B3CA62804AEF /* Target_A.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_A.m; path = A/A/Target_A.m; sourceTree = "<group>"; };
+		D1F0E658E5390833F7C11CB2FB7F1307 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		D3639E89541E448BB46136E016861A12 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		D84E2FA926F98B9975A42342C3235D06 /* Pods-ModulizationProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModulizationProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E688A60B4720FE022F421FF4B522549C /* B_Category-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "B_Category-prefix.pch"; sourceTree = "<group>"; };
+		EA540A3D3A9820462BAE828ACD74D9CD /* A_Category-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "A_Category-dummy.m"; sourceTree = "<group>"; };
+		F1056DBF642E2B349BBF868641325732 /* AMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMainViewController.h; path = A/A/AMainViewController.h; sourceTree = "<group>"; };
+		F6A01EF91DD3147B05295A21B72D539A /* Pods-ModulizationProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ModulizationProject-dummy.m"; sourceTree = "<group>"; };
+		F786CE0A4591D33B42410F0AA3219BF5 /* libHandyFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHandyFrame.a; path = libHandyFrame.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA51251CAB749EA861CF8846873DEEE6 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		FB6903DDAFCF48C52A401576FFA304E2 /* Pods-ModulizationProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModulizationProject.release.xcconfig"; sourceTree = "<group>"; };
+		FFF96B3A72D33B73E0E417AD3BB341DA /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34D1DFA2B37F564A16B8ED0A65238AB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E69CD14FEC0C5F8732E296780E57AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE76C1B9F9EDCFE2B0223649571FE0B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214E3026659ECEED9396D0A964D9EA63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B573AF0600CB3BCD20EC2A9EE9B36178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1A6DFF402ED5B395F39AAC267937ED /* Foundation.framework in Frameworks */,
+				78C0918970700F0CBEA1455778849FDE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1902F3DB12C2FC14CDED60AD94B41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF737471825C95A732D320C04190B6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6AB06A0768E8EB0131EB1CDE054289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0B71FC3F8B22F174EA0394EDFDD8B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF69F431313DE5FFFBE89E40A7F31F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD9DA56144180C5943C9D9BE8D1203E /* Foundation.framework in Frameworks */,
+				3EBD72F4F64A7DE45A88ECCC7B12FD6A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0159C38116E52370C878978CE2877A0F /* Pods-ModulizationProject */ = {
+			isa = PBXGroup;
+			children = (
+				AC9D2DA7F10DB84951F94C8EC1F46BEA /* Pods-ModulizationProject-acknowledgements.markdown */,
+				D84E2FA926F98B9975A42342C3235D06 /* Pods-ModulizationProject-acknowledgements.plist */,
+				F6A01EF91DD3147B05295A21B72D539A /* Pods-ModulizationProject-dummy.m */,
+				431ECAFF4B69371F730F530AE8844D57 /* Pods-ModulizationProject-frameworks.sh */,
+				855CB51EEE86A97A16E4E5351B3A6BFA /* Pods-ModulizationProject-resources.sh */,
+				373BB17C55A2707AACAC973C10F97C8B /* Pods-ModulizationProject.debug.xcconfig */,
+				FB6903DDAFCF48C52A401576FFA304E2 /* Pods-ModulizationProject.release.xcconfig */,
+			);
+			name = "Pods-ModulizationProject";
+			path = "Target Support Files/Pods-ModulizationProject";
+			sourceTree = "<group>";
+		};
+		0823540B0E742FF62BE8FAB68DC8E792 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3639E89541E448BB46136E016861A12 /* CTMediator.xcconfig */,
+				FFF96B3A72D33B73E0E417AD3BB341DA /* CTMediator-dummy.m */,
+				D1F0E658E5390833F7C11CB2FB7F1307 /* CTMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		0E2302BDF21D72BEF164518000A62348 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				721DE06ED361FC66765204CF9C2CB1CB /* B_Category.xcconfig */,
+				5A094BB209B3637C2DE09FD5C596CC46 /* B_Category-dummy.m */,
+				E688A60B4720FE022F421FF4B522549C /* B_Category-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/B_Category";
+			sourceTree = "<group>";
+		};
+		2AC1D81704C4C4A5F0B559D313DE9523 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F26C537B8B6267DD86F00A59C691F30 /* HandyFrame.xcconfig */,
+				76BB0570247496F836FE220E418EF44C /* HandyFrame-dummy.m */,
+				6164EF6C19674C098FA5757972EBF965 /* HandyFrame-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HandyFrame";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5763E4B319985EC924E703763580D6CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AB8CDE6BC69DC2DFA6BB38827ED1B1F /* A_Category.xcconfig */,
+				EA540A3D3A9820462BAE828ACD74D9CD /* A_Category-dummy.m */,
+				14ED9FB5C37DFB09241FEEE9E0B3982C /* A_Category-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/A_Category";
+			sourceTree = "<group>";
+		};
+		5F99E01EB27A9BC44316E0FAE576DDB9 /* HandyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				FA51251CAB749EA861CF8846873DEEE6 /* UIView+LayoutMethods.h */,
+				BAFEFFF6CF29C9043538648A7A4A0131 /* UIView+LayoutMethods.m */,
+				2AC1D81704C4C4A5F0B559D313DE9523 /* Support Files */,
+			);
+			name = HandyFrame;
+			path = HandyFrame;
+			sourceTree = "<group>";
+		};
+		70F007E01E827142EEA15D5EAED1A0BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06789C788FB5E66C3E9ABC25D0087CDD /* libA.a */,
+				4B1D8C4D1BE6857DC2819872598092B5 /* libA_Category.a */,
+				4BF85759A46C0F5B723CD1EE40219E79 /* libB_Category.a */,
+				0D28FA9AFC7435F60BB655865C8559DD /* libCTMediator.a */,
+				F786CE0A4591D33B42410F0AA3219BF5 /* libHandyFrame.a */,
+				97F5E2A6284EE8C887897C4EE33596DB /* libPods-ModulizationProject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7263CCEB3E4CA73E5E15750787DC2AC6 /* A_Category */ = {
+			isa = PBXGroup;
+			children = (
+				A478903666F2435815D6C1297BD93C90 /* CTMediator+A.h */,
+				16279190CEEC1DDF6F3932612F7B27C9 /* CTMediator+A.m */,
+				5763E4B319985EC924E703763580D6CA /* Support Files */,
+			);
+			name = A_Category;
+			path = A_Category;
+			sourceTree = "<group>";
+		};
+		7AA895F05D292E2D9AF282F59DFEB7BB /* B_Category */ = {
+			isa = PBXGroup;
+			children = (
+				389136AA4A758389D48ED102E65B9BD7 /* CTMediator+B.h */,
+				5A14A9E789980F95D7FD5405ECCD197A /* CTMediator+B.m */,
+				0E2302BDF21D72BEF164518000A62348 /* Support Files */,
+			);
+			name = B_Category;
+			path = B_Category;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				85E27F4E68AD90AA21BFCF9338E81047 /* Pods */,
+				70F007E01E827142EEA15D5EAED1A0BB /* Products */,
+				9F5AB7008EE83A967B7043AF1E6FFBFE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8059702B679FAAAE8F00024A7511F8F3 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				1B94DC770F33C85167CDE4AAAE4BD72F /* CTMediator.h */,
+				C4B4F0A1D89DF2221A20A4DA18191225 /* CTMediator.m */,
+				0823540B0E742FF62BE8FAB68DC8E792 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		85E27F4E68AD90AA21BFCF9338E81047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D418E5B2B2D2DE54BF08965F49A6E51 /* A */,
+				7263CCEB3E4CA73E5E15750787DC2AC6 /* A_Category */,
+				7AA895F05D292E2D9AF282F59DFEB7BB /* B_Category */,
+				8059702B679FAAAE8F00024A7511F8F3 /* CTMediator */,
+				5F99E01EB27A9BC44316E0FAE576DDB9 /* HandyFrame */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D418E5B2B2D2DE54BF08965F49A6E51 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				F1056DBF642E2B349BBF868641325732 /* AMainViewController.h */,
+				C10931D0DCE039220F7D630DC68891EF /* AMainViewController.m */,
+				181E914D47D50B74A39AEC0147DDFE0E /* Target_A.h */,
+				CCC3A1C3D2B226858813B3CA62804AEF /* Target_A.m */,
+				D74AF6E86AF9A1E41E5610532CCF55BE /* Support Files */,
+			);
+			name = A;
+			path = A;
+			sourceTree = "<group>";
+		};
+		9F5AB7008EE83A967B7043AF1E6FFBFE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0159C38116E52370C878978CE2877A0F /* Pods-ModulizationProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D74AF6E86AF9A1E41E5610532CCF55BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				595AE458A8FA654AC1E0DD4801CF60FF /* A.xcconfig */,
+				2E0BD2D36EFD7D3FC8E05992874910E3 /* A-dummy.m */,
+				7B90012B3423C3C928E9A8A42944429D /* A-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/A";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0014EE9ED00398E8366D7470E3F1B13A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9992939FCDE69769D9EF6FE80E366536 /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B5B31A01953C2E0D9A2C478C34B6A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8B176DB77E0E8024ED545A1467390D /* UIView+LayoutMethods.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B84EB2530BE18F14A9FB5853CD0E949 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D1F53C7088E0AC6E7CB2C9012F4DE1 /* CTMediator+B.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AD7E45CC271CB507D73BA7FC31AA93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE1742D4BDEAC2EF1A2D6E2F5AC8FB1 /* AMainViewController.h in Headers */,
+				BC035E793A4811A3A13D5434C411D213 /* Target_A.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63327B9EFF1E66EEC8BD41EE0DBEC44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2B3055C93BC3023D20A2163EE55B16 /* CTMediator+A.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CE37C8540E87ABF913768831B14E818 /* A_Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9DE878AB0A701B9E0081694E79DBBC /* Build configuration list for PBXNativeTarget "A_Category" */;
+			buildPhases = (
+				55A615C34C9AA5C2EA740FC6EF4FE0E9 /* Sources */,
+				DF6AB06A0768E8EB0131EB1CDE054289 /* Frameworks */,
+				F63327B9EFF1E66EEC8BD41EE0DBEC44 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E150111ACF8DBEA0112B817C06C2FDF0 /* PBXTargetDependency */,
+			);
+			name = A_Category;
+			productName = A_Category;
+			productReference = 4B1D8C4D1BE6857DC2819872598092B5 /* libA_Category.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		11B441CC25A45575625B4E85F7509FCC /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6982AE3DA4BE5CA9395B51175697DF /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				C261778F9508D91D707ABF2FA9C5DC8E /* Sources */,
+				B573AF0600CB3BCD20EC2A9EE9B36178 /* Frameworks */,
+				0014EE9ED00398E8366D7470E3F1B13A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 0D28FA9AFC7435F60BB655865C8559DD /* libCTMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3C9449900C04677E53B66F12ECB0512E /* B_Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120F58AAF5DE40F2CEA575604C4BC977 /* Build configuration list for PBXNativeTarget "B_Category" */;
+			buildPhases = (
+				188EA9D861E03531030A208897A51F03 /* Sources */,
+				AE76C1B9F9EDCFE2B0223649571FE0B2 /* Frameworks */,
+				2B84EB2530BE18F14A9FB5853CD0E949 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2B248C99CDB5BDF479918EACD7E2C8 /* PBXTargetDependency */,
+			);
+			name = B_Category;
+			productName = B_Category;
+			productReference = 4BF85759A46C0F5B723CD1EE40219E79 /* libB_Category.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7D45F4152699BCA3C5388B88F572F19B /* A */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 081216C4BF754F0AB6C292E7765CC1BA /* Build configuration list for PBXNativeTarget "A" */;
+			buildPhases = (
+				67CDC348723E6E7E61D6D9E1FA5234EB /* Sources */,
+				DB1902F3DB12C2FC14CDED60AD94B41A /* Frameworks */,
+				69AD7E45CC271CB507D73BA7FC31AA93 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28620E59DA2E5ADF8B2BBB4EA7987DBE /* PBXTargetDependency */,
+				1F4E3FB9BB6DDF005DEA145320F5B099 /* PBXTargetDependency */,
+			);
+			name = A;
+			productName = A;
+			productReference = 06789C788FB5E66C3E9ABC25D0087CDD /* libA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AD6BDE4DCC0D56BBBD95EC50F89D4A08 /* Pods-ModulizationProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426E5E7238DD93A07D21ADAD2781CA3B /* Build configuration list for PBXNativeTarget "Pods-ModulizationProject" */;
+			buildPhases = (
+				A98D1969BBD340C854EE7372953B1D75 /* Sources */,
+				34D1DFA2B37F564A16B8ED0A65238AB4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FFC787195013F44F40CEED8EBF155C0 /* PBXTargetDependency */,
+				8196FCD49F77A11E73BE34CBFC1453A8 /* PBXTargetDependency */,
+				C91219A6B812F7D9B1E025F62E70057F /* PBXTargetDependency */,
+				4520EB772CD451D08AB899E1C9246C74 /* PBXTargetDependency */,
+				1E9826837E5D2D4C57E81652FF0F868B /* PBXTargetDependency */,
+			);
+			name = "Pods-ModulizationProject";
+			productName = "Pods-ModulizationProject";
+			productReference = 97F5E2A6284EE8C887897C4EE33596DB /* libPods-ModulizationProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BAE53AD0B7382177F4D30E0299A670EC /* HandyFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B08945FB2F124B45205E941B00014DF /* Build configuration list for PBXNativeTarget "HandyFrame" */;
+			buildPhases = (
+				E913FAAE82539584E01F5E3860AB6109 /* Sources */,
+				EF69F431313DE5FFFBE89E40A7F31F98 /* Frameworks */,
+				05B5B31A01953C2E0D9A2C478C34B6A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandyFrame;
+			productName = HandyFrame;
+			productReference = F786CE0A4591D33B42410F0AA3219BF5 /* libHandyFrame.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 70F007E01E827142EEA15D5EAED1A0BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D45F4152699BCA3C5388B88F572F19B /* A */,
+				0CE37C8540E87ABF913768831B14E818 /* A_Category */,
+				3C9449900C04677E53B66F12ECB0512E /* B_Category */,
+				11B441CC25A45575625B4E85F7509FCC /* CTMediator */,
+				BAE53AD0B7382177F4D30E0299A670EC /* HandyFrame */,
+				AD6BDE4DCC0D56BBBD95EC50F89D4A08 /* Pods-ModulizationProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188EA9D861E03531030A208897A51F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8689F3AEE7015340A023A3414D51EAFD /* B_Category-dummy.m in Sources */,
+				9402B091E3D1D6C6D5974D4DB66CB9CD /* CTMediator+B.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A615C34C9AA5C2EA740FC6EF4FE0E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68050F39367B9609F096B35FF704AC78 /* A_Category-dummy.m in Sources */,
+				B7A79169A394B66DE4969000F2B31284 /* CTMediator+A.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67CDC348723E6E7E61D6D9E1FA5234EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27F96C48580C9B25F435F3D8E60CD38 /* A-dummy.m in Sources */,
+				BDEC440FEE9CC04E639BCC6A1C9A2D06 /* AMainViewController.m in Sources */,
+				9E918F37C1E06AE679EDE2B253CDF98A /* Target_A.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98D1969BBD340C854EE7372953B1D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D58687ACECBEB7D612A2A79F0A3A6C1 /* Pods-ModulizationProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C261778F9508D91D707ABF2FA9C5DC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2B398B730AC6929B170398C142D4F4 /* CTMediator-dummy.m in Sources */,
+				55AED0A7DBCBB010D813626A8236B3FE /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E913FAAE82539584E01F5E3860AB6109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4355C731060DC668A71EBCBCA3435BDC /* HandyFrame-dummy.m in Sources */,
+				D274E160F43659FDA92C800617926694 /* UIView+LayoutMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E9826837E5D2D4C57E81652FF0F868B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HandyFrame;
+			target = BAE53AD0B7382177F4D30E0299A670EC /* HandyFrame */;
+			targetProxy = 596D91B42311C35259A0428416B80AF9 /* PBXContainerItemProxy */;
+		};
+		1F4E3FB9BB6DDF005DEA145320F5B099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 11B441CC25A45575625B4E85F7509FCC /* CTMediator */;
+			targetProxy = 0776F629F0CA31BDBA587F21961D2FEF /* PBXContainerItemProxy */;
+		};
+		28620E59DA2E5ADF8B2BBB4EA7987DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = B_Category;
+			target = 3C9449900C04677E53B66F12ECB0512E /* B_Category */;
+			targetProxy = 5FBDDD2011D5492665B1A23160AE82FD /* PBXContainerItemProxy */;
+		};
+		4520EB772CD451D08AB899E1C9246C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 11B441CC25A45575625B4E85F7509FCC /* CTMediator */;
+			targetProxy = 69DF4D29CB98D1BFBBBDB394B24E76B3 /* PBXContainerItemProxy */;
+		};
+		4FFC787195013F44F40CEED8EBF155C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = A;
+			target = 7D45F4152699BCA3C5388B88F572F19B /* A */;
+			targetProxy = 902F542BD4194B1C76431912C8734E24 /* PBXContainerItemProxy */;
+		};
+		8196FCD49F77A11E73BE34CBFC1453A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = A_Category;
+			target = 0CE37C8540E87ABF913768831B14E818 /* A_Category */;
+			targetProxy = B0ADD1920D70A4ABABA2E1B29E2B996B /* PBXContainerItemProxy */;
+		};
+		C91219A6B812F7D9B1E025F62E70057F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = B_Category;
+			target = 3C9449900C04677E53B66F12ECB0512E /* B_Category */;
+			targetProxy = 93A9FCCB7D86112AD6E9665B7FEE0095 /* PBXContainerItemProxy */;
+		};
+		DF2B248C99CDB5BDF479918EACD7E2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 11B441CC25A45575625B4E85F7509FCC /* CTMediator */;
+			targetProxy = 24BAF45512ABDBF33EA9A612C146EAD6 /* PBXContainerItemProxy */;
+		};
+		E150111ACF8DBEA0112B817C06C2FDF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 11B441CC25A45575625B4E85F7509FCC /* CTMediator */;
+			targetProxy = 2A0D93BBE025997E8CDE2C76CAA371DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		305808DD652A48964600A7220A4F2722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3639E89541E448BB46136E016861A12 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5F3FDC039B06112846CE95CD143FFE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F26C537B8B6267DD86F00A59C691F30 /* HandyFrame.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HandyFrame/HandyFrame-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6863B4D12EE0C4776A402086B74F4284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB8CDE6BC69DC2DFA6BB38827ED1B1F /* A_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/A_Category/A_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775AC900CB37D5ADC196302B243AEF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB8CDE6BC69DC2DFA6BB38827ED1B1F /* A_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/A_Category/A_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B6145DD80FF921E426FFDF9C40DDEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595AE458A8FA654AC1E0DD4801CF60FF /* A.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/A/A-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		830BE911AC0B4CD06039CECECA1B5086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721DE06ED361FC66765204CF9C2CB1CB /* B_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/B_Category/B_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DEAB04F05047B8193839DC1AF251B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6903DDAFCF48C52A401576FFA304E2 /* Pods-ModulizationProject.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EBF2F304C5D5982F90BEE6B94E4419E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721DE06ED361FC66765204CF9C2CB1CB /* B_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/B_Category/B_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7ADABFD2D9C03125ABAB7C317E464F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3639E89541E448BB46136E016861A12 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B98B9069ABC1D69A4BAF8DA2649E64FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F26C537B8B6267DD86F00A59C691F30 /* HandyFrame.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HandyFrame/HandyFrame-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC17A7643F4CF94406F555EA9F1D12CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373BB17C55A2707AACAC973C10F97C8B /* Pods-ModulizationProject.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F63CDF6704BEC711652DA06C28D26DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595AE458A8FA654AC1E0DD4801CF60FF /* A.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/A/A-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		081216C4BF754F0AB6C292E7765CC1BA /* Build configuration list for PBXNativeTarget "A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63CDF6704BEC711652DA06C28D26DE5 /* Debug */,
+				7B6145DD80FF921E426FFDF9C40DDEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120F58AAF5DE40F2CEA575604C4BC977 /* Build configuration list for PBXNativeTarget "B_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBF2F304C5D5982F90BEE6B94E4419E /* Debug */,
+				830BE911AC0B4CD06039CECECA1B5086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426E5E7238DD93A07D21ADAD2781CA3B /* Build configuration list for PBXNativeTarget "Pods-ModulizationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC17A7643F4CF94406F555EA9F1D12CD /* Debug */,
+				8DEAB04F05047B8193839DC1AF251B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6982AE3DA4BE5CA9395B51175697DF /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305808DD652A48964600A7220A4F2722 /* Debug */,
+				B7ADABFD2D9C03125ABAB7C317E464F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B08945FB2F124B45205E941B00014DF /* Build configuration list for PBXNativeTarget "HandyFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3FDC039B06112846CE95CD143FFE66 /* Debug */,
+				B98B9069ABC1D69A4BAF8DA2649E64FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9DE878AB0A701B9E0081694E79DBBC /* Build configuration list for PBXNativeTarget "A_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6863B4D12EE0C4776A402086B74F4284 /* Debug */,
+				775AC900CB37D5ADC196302B243AEF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
